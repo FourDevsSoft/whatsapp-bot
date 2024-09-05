@@ -4,7 +4,7 @@
   "description": "Repositório dedicado a aplicação de chat-bot Nodejs",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
