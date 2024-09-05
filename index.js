@@ -1,6 +1,6 @@
-const client = require('./config/clientConfig');
-const messageController = require('./controllers/messageController');
-const qrCodeUtil = require('./utils/qrCodeUtil');
+const client = require('./src/config/clientConfig');
+const messageController = require('./src/controllers/messageController');
+const qrCodeUtil = require('./src/utils/qrCodeUtil');
 
 client.on('qr', (qr) => {
   qrCodeUtil.generateQRCode(qr);
